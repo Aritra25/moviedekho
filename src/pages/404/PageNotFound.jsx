@@ -1,5 +1,5 @@
 import "./style.scss"
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper"
+import ContentWrapper from "../../components/wrapper/ContentWrapper"
 const PageNotFound = () => {
   return (
     <div>

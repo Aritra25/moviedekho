@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import "./style.scss"
 import { useParams } from "react-router-dom";
 import {fetchDataFromApi} from '../../utils/api'
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper"
+import ContentWrapper from "../../components/wrapper/ContentWrapper";
 import Spinner from "../../components/spinner/Spinner";
 import InfiniteScroll from "react-infinite-scroll-component";
 import MovieCard from "../../components/movieCard/MovieCard";
