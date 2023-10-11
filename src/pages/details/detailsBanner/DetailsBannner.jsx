@@ -6,7 +6,7 @@ import {PlayIcon} from "../Playbtn"
 
 import "./style.scss";
 
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../../components/wrapper/ContentWrapper";
 import useFetch from "../../../hooks/useFetch";
 
 import Img from "../../../components/lazyILoadmage/Img";

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./style.scss";
 import Select from "react-select";
 import useFetch from "../../hooks/useFetch";
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../components/wrapper/ContentWrapper";
 import { fetchDataFromApi } from "../../utils/api";
 import { useParams } from "react-router-dom";
 import Spinner from "../../components/spinner/Spinner";
@@ -147,6 +147,7 @@ const Explore = () => {
           </>
         )}
       </ContentWrapper>
+      
     </div>
   );
 };
